@@ -20,5 +20,6 @@ if ($result === FALSE) {
     curl_close($ch);
 
     $data = json_decode($result, true);
+    
     echo $data["stackTrace"];
 }

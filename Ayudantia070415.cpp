@@ -31,28 +31,22 @@ void LlenarArreglo(long A[], int largo){
 
 
         for(int i=0;i<100;i++){
+      // Llenado de de Estructura Alumno
+      // Se saca el primer digito y se acorta el numero en una cifra.
+      A[i].sexo = Numero[i]%10;
+      Numero[i]= Numero[i]/10;
+       // Se saca los otros dos digitos y se acorta el resto del numero en dos cifras.
+      A[i].nota = Numero[i]%100;
+      Numero[i]= Numero[i]/100;
+      // Se saca los otros dos digitos y se acorta el resto del numero en dos cifras.
+      A[i].edad = Numero[i]%100;
+      Numero[i]= Numero[i]/100;
+      // Se saca los otros dos digitos y se acorta el resto del numero en dos cifras.
+      A[i].id = Numero[i]%100;
+      Numero[i]= Numero[i]/100;
 
-            for(int w=0;w<6;w++){
-                switch(w){
-                    case 0:
-                        A[i].sexo = Numero[i]%10;
-                        Numero[i]= Numero[i]/10;
-                    break;
-                    case 1:
-                        A[i].nota = Numero[i]%100;
-                        Numero[i]= Numero[i]/100;
-                    break;
-                    case 3:
-                        A[i].edad = Numero[i]%100;
-                        Numero[i]= Numero[i]/100;
-                    break;
-                    case 5:
-                        A[i].id = Numero[i]%100;
-                        Numero[i]= Numero[i]/100;
-                    break;
 
-                }
-            }
+
         }
 
  }
@@ -86,3 +80,4 @@ int main(){
 
     return 0;
 }
+

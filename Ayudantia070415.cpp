@@ -3,12 +3,12 @@
 
 using namespace std;
 
-typedef struct Alumno{
+typedef struct {
    int id;
    int edad;
    int nota;
    int sexo;
-    } alumno;
+    } Alumno;
 
 void LlenarArreglo(long A[], int largo){
     int digitos,numero;

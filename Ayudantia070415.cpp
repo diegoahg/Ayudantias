@@ -8,7 +8,7 @@ typedef struct Alumno{
    int edad;
    int nota;
    int sexo;
-};
+    } alumno;
 
 void LlenarArreglo(long A[], int largo){
     int digitos,numero;
@@ -27,10 +27,10 @@ void LlenarArreglo(long A[], int largo){
 
 }
 
- void LlenarAlumno(Alumno A[],long Numero[] ){
+ void LlenarAlumno(Alumno A[], long Numero[] ){
 
 
-        for(int i=0;i<100;i++){
+      for(int i=0;i<100;i++){
       // Llenado de de Estructura Alumno
       // Se saca el primer digito y se acorta el numero en una cifra.
       A[i].sexo = Numero[i]%10;
@@ -80,4 +80,3 @@ int main(){
 
     return 0;
 }
-

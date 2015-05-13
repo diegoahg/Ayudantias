@@ -1,0 +1,10 @@
+Alumno1;Edad1;Sexo1;
+Alumno2;Edad2;Sexo2;
+Alumno3;Edad3;Sexo3;
+Alumno4;Edad4;Sexo4;
+Alumno5;Edad5;Sexo5;
+Alumno6;Edad6;Sexo6;
+Alumno7;Edad7;Sexo7;
+Alumno8;Edad8;Sexo8;
+Alumno9;Edad9;Sexo9;
+Alumno10;Eda10;Sexo10;
